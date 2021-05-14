@@ -43,6 +43,8 @@ export const query = graphql`
 					slug
 					title
 					stack
+					link
+					github
 					thumb {
 						childImageSharp {
 							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])

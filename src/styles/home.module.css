@@ -14,7 +14,7 @@
 }
 .btn {
 	display: inline-block;
-	background: #d42990;
+	background: linear-gradient(to left bottom, rgb(180, 232, 72) 20%, rgb(20, 199, 123) 80%);
 	padding: 10px 16px;
 	border-radius: 10px;
 	margin-top: 20px;

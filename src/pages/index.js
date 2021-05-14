@@ -20,7 +20,7 @@ export default function Home({ data }) {
 					</Link>
 				</div>
 				{/* <img src="/banner.png" alt="site banner" style={{ maxWidth: '100%' }} /> */}
-				<GatsbyImage image={image} />
+				<GatsbyImage image={image} quality="100" />
 				{/* <p>
 					{title} - {description}
 				</p> */}
@@ -31,7 +31,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
 	query Banner {
-		file(relativePath: { eq: "banner.png" }) {
+		file(relativePath: { eq: "banner.jpeg" }) {
 			childImageSharp {
 				gatsbyImageData(layout: CONSTRAINED)
 			}

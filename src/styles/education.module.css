@@ -1,0 +1,40 @@
+.zoom {
+	padding: 50px;
+	transition: transform .2s;
+	margin: 50px;
+}
+.zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.icon {
+	padding: 5%;
+}
+
+.icon:hover {
+	-ms-transform: scale(2.5); /* IE 9 */
+	-webkit-transform: scale(2.5); /* Safari 3-8 */
+	transform: scale(2.5);
+}
+
+.freecode {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: auto;
+	padding-bottom: 1em;
+	align-items: center;
+}
+.udemy {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: auto;
+	padding-bottom: 1em;
+	align-items: center;
+}
+.udemyIcon {
+	size: 'lg';
+}
