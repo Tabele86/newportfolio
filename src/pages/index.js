@@ -20,7 +20,7 @@ export default function Home({ data }) {
 					</Link>
 				</div>
 				{/* <img src="/banner.png" alt="site banner" style={{ maxWidth: '100%' }} /> */}
-				<GatsbyImage image={image} quality="100" />
+				<GatsbyImage image={image} quality="100" alt="banner" />
 				{/* <p>
 					{title} - {description}
 				</p> */}

@@ -1,5 +1,7 @@
-import { Link, graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import React, { useState } from 'react';
+import NavbarLinks from './NavbarLinks';
+import { NavBox, Toggle, Navigation, Hamburger, TitleWrap } from './NavElements';
 
 export default function Navbar() {
 	const data = useStaticQuery(graphql`
@@ -12,15 +14,23 @@ export default function Navbar() {
 		}
 	`);
 	const { title } = data.site.siteMetadata;
+	const [ navbarOpen, setNavbarOpen ] = useState(false);
+
 	return (
-		<nav>
-			<h1>{title}</h1>
-			<div className="links">
-				<Link to="/">Home</Link>
-				<Link to="/about">About</Link>
-				<Link to="/education">Education</Link>
-				<Link to="/projects">Portfolio Projects</Link>
-			</div>
-		</nav>
+		<Navigation>
+			<TitleWrap>{title}</TitleWrap>
+			<Toggle navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
+				{navbarOpen ? <Hamburger open /> : <Hamburger />}
+			</Toggle>
+			{navbarOpen ? (
+				<NavBox>
+					<NavbarLinks />
+				</NavBox>
+			) : (
+				<NavBox open>
+					<NavbarLinks />
+				</NavBox>
+			)}
+		</Navigation>
 	);
 }

@@ -1,7 +1,7 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 import Layout from '../../components/Layout';
-import { portfolio, projectstyle } from '../../styles/projects.module.css';
+import { portfolio, projectstyle, bold, underline } from '../../styles/projects.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 export default function Projects({ data }) {
@@ -20,7 +20,7 @@ export default function Projects({ data }) {
 							<div>
 								<GatsbyImage
 									image={getImage(project.frontmatter.thumb.childImageSharp.gatsbyImageData)}
-									alt="Banner"
+									alt="featured"
 								/>
 								<h3>{project.frontmatter.title}</h3>
 								<p>{project.frontmatter.stack}</p>
@@ -28,7 +28,12 @@ export default function Projects({ data }) {
 						</Link>
 					))}
 				</div>
-				<p>Like what you see? Email me at {contact}</p>
+				<p className={bold}>
+					Like what you see? Email me at{' '}
+					<a className={underline} href="mailto:tabele86@gmail.com">
+						{contact}
+					</a>
+				</p>
 			</div>
 		</Layout>
 	);

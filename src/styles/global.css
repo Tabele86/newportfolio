@@ -20,19 +20,19 @@ p {
 	line-height: 1.5em;
 }
 
+h1 {
+	text-align: center;
+}
 /* layout & nav */
 .layout {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-nav {
+
+/* nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin: 40px auto;
-}
-nav .links {
-	display: inline-block;
-	text-align: right;
 }
 nav a {
 	display: inline-block;
@@ -40,10 +40,12 @@ nav a {
 	font-weight: 400;
 	padding-bottom: 8px;
 	border-bottom: 3px solid transparent;
+	color: white;
 }
 nav a:hover {
-	border-color: white;
-}
+	border-color: rgb(180, 232, 72);
+	color: rgb(180, 232, 72);
+} */
 footer p {
 	text-align: center;
 	color: #bbb;

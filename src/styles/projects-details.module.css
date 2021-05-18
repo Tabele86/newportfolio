@@ -13,3 +13,19 @@
 .featured {
 	margin-bottom: 40px;
 }
+
+.linkBlock {
+	display: flex;
+	align-items: baseline;
+}
+.linkSpace {
+	text-align: right;
+	text-indent: 5px;
+}
+.linkSpace:hover {
+	border-color: rgb(180, 232, 72);
+	color: rgb(180, 232, 72);
+}
+.logo {
+	justify-items: start;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import { htmlS, details, featured } from '../styles/projects-details.module.css';
+import { htmlS, details, featured, linkSpace, linkBlock, logo } from '../styles/projects-details.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { graphql } from 'gatsby';
+import { BsLink45Deg } from '@react-icons/all-files/bs/BsLink45Deg';
+import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
 
 export default function ProjectsDetails({ data }) {
 	const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData);
@@ -14,19 +16,32 @@ export default function ProjectsDetails({ data }) {
 			<div className={details}>
 				<h2>{title}</h2>
 				<h3>{stack}</h3>
-				<a target="_blank" rel="noreferrer" href={link}>
-					Link
-				</a>
+				<div className={linkBlock}>
+					<div className={logo}>
+						<BsLink45Deg />
+					</div>
+					<a className={linkSpace} target="_blank" rel="noreferrer" href={link}>
+						Link
+					</a>
+				</div>
+
 				<br />
-				<a target="_blank" rel="noreferrer" href={github}>
-					GitHub
-				</a>
+				<div className={linkBlock}>
+					<div className={logo}>
+						<AiFillGithub />
+					</div>
+					<a className={linkSpace} target="_blank" rel="noreferrer" href={github}>
+						GitHub
+					</a>
+				</div>
+
 				<div className={featured}>
 					<GatsbyImage image={featuredImage} alt="Banner" />
-					{/* <Img fluid={}/> */}
 				</div>
-				<div className={htmlS} dangerouslySetInnerHTML={{ __html: html }} />
+
+				{/* <Img fluid={}/> */}
 			</div>
+			<div className={htmlS} dangerouslySetInnerHTML={{ __html: html }} />
 		</Layout>
 	);
 }
@@ -42,7 +57,7 @@ export const query = graphql`
 				github
 				featuredImg {
 					childImageSharp {
-						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, AVIF])
+						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
 					}
 				}
 			}
