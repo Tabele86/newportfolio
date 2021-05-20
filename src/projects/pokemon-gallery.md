@@ -2,7 +2,7 @@
 title: Pokemon Gallery
 stack: React, TailwindCSS, PokeAPI
 slug: pokemon-gallery
-date: 2021-01-01 00:00:00 +0000
+date: 2021-01-26 00:00:00 +0000
 thumb: ../images/thumbs/pg-example.png
 featuredImg: ../images/featured/pg-example.png
 link: https://distracted-snyder-7ad8aa.netlify.app/

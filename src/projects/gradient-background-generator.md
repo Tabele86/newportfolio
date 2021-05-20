@@ -2,7 +2,7 @@
 title: Gradient Background Generator
 stack: React, CSS 
 slug: gbg
-date: 2021-01-01 00:00:00 +0000
+date: 2020-10-27 00:00:00 +0000
 thumb: ../images/thumbs/gbg-example.png
 featuredImg: ../images/featured/gbg-example.png
 link: https://tabele86.github.io/background-generator/

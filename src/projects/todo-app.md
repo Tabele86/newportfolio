@@ -2,7 +2,7 @@
 title: To Do App
 stack:  React, axios, quotes-react-app API
 slug: todo-app
-date: 2021-01-01 00:00:00 +0000
+date: 2021-02-05 00:00:00 +0000
 thumb: ../images/thumbs/todo-example.png
 featuredImg: ../images/featured/todo-example.png
 link: https://tabele86.github.io/todo-app/

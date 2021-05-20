@@ -2,7 +2,7 @@
 title: Star Wars Timeline
 stack: React, React-chrono, Material-ui, json2mq
 slug: starwars-timeline
-date: 2021-01-01 00:00:00 +0000
+date: 2021-01-20 00:00:00 +0000
 thumb: ../images/thumbs/swt-example.png
 featuredImg: ../images/featured/swt-example.png
 link: https://determined-kirch-e29146.netlify.app/

@@ -2,7 +2,7 @@
 title: Smart Brain
 stack: React, postgres(Heroku), Clarifai API 
 slug: smart-brain
-date: 2021-01-01 00:00:00 +0000
+date: 2020-11-20 00:00:00 +0000
 thumb: ../images/thumbs/smart-brain-example.png
 featuredImg: ../images/featured/smart-brain-example.png
 link: https://smart-brain-ta.herokuapp.com/

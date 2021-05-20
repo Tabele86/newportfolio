@@ -2,7 +2,7 @@
 title: Nature Blog
 stack: React, TailwindCSS, sanity.io
 slug: nature-blog
-date: 2021-01-01 00:00:00 +0000
+date: 2021-02-14 00:00:00 +0000
 thumb: ../images/thumbs/nb-example.png
 featuredImg: ../images/featured/nb-example.png
 link: https://stoic-lichterman-6b986f.netlify.app/

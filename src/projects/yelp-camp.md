@@ -2,7 +2,7 @@
 title: Yelp Camp
 stack: EJS, Express-session, Mongodb, Mongoose, Boot Strap, Flash, Passportjs, Geocoder, Restful-API, CRUD
 slug: yelp-camp
-date: 2021-01-01 00:00:00 +0000
+date: 2021-02-25 00:00:00 +0000
 thumb: ../images/thumbs/yelpcamp-example.png
 featuredImg: ../images/featured/yelpcamp-example.png
 link: https://quiet-ridge-63073.herokuapp.com/
