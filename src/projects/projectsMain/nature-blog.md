@@ -7,6 +7,7 @@ thumb: ../images/thumbs/nb-example.png
 featuredImg: ../images/featured/nb-example.png
 link: https://stoic-lichterman-6b986f.netlify.app/
 github: https://github.com/Tabele86/nature-blog
+relativeDirectory: projectsMain
 ---
 
 **Simple React blog websites utilising the sanity.io for the blob/backend.**

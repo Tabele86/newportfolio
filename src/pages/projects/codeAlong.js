@@ -4,9 +4,9 @@ import Layout from '../../components/Layout';
 import { portfolio, projectstyle } from '../../styles/projects.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-export default function Projects({ data }) {
+export default function CodeAlong({ data }) {
 	console.log(data);
-	const projects = data.projects.nodes;
+	const projects = data.projectsCode.nodes;
 	// const contact = data.contact.siteMetadata.contact;
 	// const imageP = getImage(project.frontmatter.thumb.childImageSharp.gatsbyImageData);
 	return (
@@ -14,9 +14,12 @@ export default function Projects({ data }) {
 			<div className={portfolio}>
 				<h2>Portfolio</h2>
 				<h3>Projects & Websites I've Created</h3>
+				<div>
+					<Link>Clones</Link> <Link>Code-Along Projects</Link>
+				</div>
 				<div className={projectstyle}>
 					{projects.map((project) => (
-						<Link to={'/projects/' + project.frontmatter.slug} key={project.id}>
+						<Link to={'/projectsCode/' + project.frontmatter.slug} key={project.id}>
 							<div>
 								<GatsbyImage
 									image={getImage(project.frontmatter.thumb.childImageSharp.gatsbyImageData)}
@@ -41,8 +44,8 @@ export default function Projects({ data }) {
 
 //export page query
 export const query = graphql`
-	query ProjectsMain {
-		projectsMain: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+	query ProjectsCode {
+		projectsCode: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
 			nodes {
 				frontmatter {
 					slug
@@ -55,7 +58,7 @@ export const query = graphql`
 				id
 			}
 		}
-		allFile(filter: { relativeDirectory: { eq: "projectsMain" } }) {
+		allFile(filter: { relativeDirectory: { eq: "projectsCode" } }) {
 			edges {
 				node {
 					id

@@ -23,7 +23,9 @@
     "gatsby-transformer-sharp": "^3.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-simple-tooltip": "^2.6.3",
+    "react-tooltip": "^4.2.19"
   },
   "devDependencies": {
     "prettier": "2.2.1"

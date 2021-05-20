@@ -14,20 +14,17 @@ export default function Education({ data }) {
 			</div>
 			<div>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum mollitia labore, deleniti
-					asperiores ab! Accusamus dolore at similique blanditiis mollitia dolores nostrum, voluptatum
-					quaerat, aliquid, ullam placeat ipsum illum.
+					Studied WGD(Web Graphic Design) at Devry University 2010-2012. I've since learned{' '}
+					<strong>1000%</strong> times more on freeCodeCamp,YouTube and Udemy.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum mollitia labore, deleniti
-					asperiores ab! Accusamus dolore at similique blanditiis mollitia dolores nostrum, voluptatum
-					quaerat, aliquid, ullam placeat ipsum illum.
+					Towards the end of 2019 I switched studying for my CCNA and began delving into Web Development(my
+					original dream almost 10 years later). It wasn't easy re-learning the basics, while also still doing
+					my network job and helping the company start up a exercise equipment franchise.(not easy to learn
+					those many skills simultaneously ) Luckily when the pandemic happened I had a chance to study full
+					time.
 				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum mollitia labore, deleniti
-					asperiores ab! Accusamus dolore at similique blanditiis mollitia dolores nostrum, voluptatum
-					quaerat, aliquid, ullam placeat ipsum illum.
-				</p>
+				<p>Been a self taught developer since April 2020.</p>
 			</div>
 			<div className={freecode}>
 				<a target="_blank" rel="noreferrer" href={freeCodeLink} className={freecode}>

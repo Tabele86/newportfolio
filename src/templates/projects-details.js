@@ -36,7 +36,7 @@ export default function ProjectsDetails({ data }) {
 				</div>
 
 				<div className={featured}>
-					<GatsbyImage image={featuredImage} alt="Banner" />
+					<GatsbyImage image={featuredImage} alt="featured image" />
 				</div>
 
 				{/* <Img fluid={}/> */}

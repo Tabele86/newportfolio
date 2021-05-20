@@ -15,7 +15,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
 	data.allMarkdownRemark.nodes.forEach((node) => {
 		actions.createPage({
-			path: `/projects/` + node.frontmatter.slug,
+			path: `/projectsMain/` + node.frontmatter.slug,
 			component: path.resolve('./src/templates/projects-details.js'),
 			context: { slug: node.frontmatter.slug }
 		});

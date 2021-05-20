@@ -4,6 +4,12 @@
 	grid-gap: 40px;
 	align-items: center;
 }
+@media screen and (max-width: 600px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+	}
+}
 .header h2 {
 	font-size: 4em;
 }
@@ -12,11 +18,31 @@
 	font-weight: 400;
 	margin-bottom: 20px;
 }
+
 .btn {
 	display: inline-block;
 	background: linear-gradient(to left bottom, rgb(180, 232, 72) 20%, rgb(20, 199, 123) 80%);
 	padding: 10px 16px;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-top: 20px;
 	font-weight: 500;
+	background-color: transparent;
+	border: 5px solid black !important;
+}
+.btn:hover {
+	display: inline-block;
+	border: 5px solid #1b61d1 !important;
+	color: #1b61d1 !important;
+	padding: 10px 16px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.skills {
+	margin-top: 20%;
+	padding-left: 5%;
+}
+
+.margin {
+	margin-top: 5%;
 }
