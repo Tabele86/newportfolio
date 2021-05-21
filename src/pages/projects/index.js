@@ -52,7 +52,7 @@ export const query = graphql`
 					github
 					thumb {
 						childImageSharp {
-							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: PNG)
+							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, PNG, WEBP])
 							id
 						}
 					}
