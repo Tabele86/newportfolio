@@ -3,8 +3,8 @@ title: Smart Brain
 stack: React, postgres(Heroku), Clarifai API 
 slug: smart-brain
 date: 2020-11-20 00:00:00 +0000
-thumb: ../images/thumbs/smart-brain-example.png
-featuredImg: ../images/featured/smart-brain-example.png
+thumb: ../images/thumbs/smart-brain-example.PNG
+featuredImg: ../images/featured/smart-brain-example.PNG
 link: https://smart-brain-ta.herokuapp.com/
 github: https://github.com/Tabele86/facial-recognition-app
 ---
