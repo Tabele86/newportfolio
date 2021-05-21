@@ -57,7 +57,7 @@ export const query = graphql`
 				github
 				featuredImg {
 					childImageSharp {
-						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, AVIF])
+						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
 					}
 				}
 			}
