@@ -9,9 +9,9 @@ export default function About() {
 			<div>
 				<h1>About Page</h1>
 				<p>
-					I have more than two years work experience in front-end and have a firm knowledge of HTML, CSS and
-					JavaScript language and possess a good knowledge of computer software packages (frameworks and
-					tools) that are used in today’s technology.
+					I have at least two years working in front-end and have a firm knowledge of HTML, CSS and JavaScript
+					language. I also possess a good knowledge of computer software packages, frameworks and tools/API's
+					that are used in today’s technology.
 				</p>
 				<p>
 					On a personal level, I've had my ups and downs being a self taught developer at the start/before the

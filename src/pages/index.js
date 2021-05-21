@@ -19,7 +19,6 @@ export default function Home({ data }) {
 						<h3>Develop & Deploy</h3>
 						<p>Software/Web/Jr. Developer based in Nashville, TN</p>
 					</div>
-
 					<div>
 						<div>
 							<Link className={btn} to="/projects">

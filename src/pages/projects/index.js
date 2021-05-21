@@ -1,14 +1,35 @@
-import { graphql, Link } from 'gatsby';
+import { graphql, Link, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Layout from '../../components/Layout';
-import { portfolio, projectstyle, bold, underline } from '../../styles/projects.module.css';
+import { portfolio, projectstyle } from '../../styles/projects.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-export default function Projects({ data }) {
-	console.log(data);
+export default function Projects() {
+	// console.log(data);
+	// const projects = data.projects.nodes;
+	// const contact = data.contact.siteMetadata.contact;
+	const data = useStaticQuery(graphql`
+		query ProjectsPage {
+			projects: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+				nodes {
+					frontmatter {
+						slug
+						title
+						stack
+						link
+						github
+						thumb {
+							childImageSharp {
+								gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, PNG, WEBP])
+							}
+						}
+					}
+					id
+				}
+			}
+		}
+	`);
 	const projects = data.projects.nodes;
-	const contact = data.contact.siteMetadata.contact;
-	// const imageP = getImage(project.frontmatter.thumb.childImageSharp.gatsbyImageData);
 	return (
 		<Layout>
 			<div className={portfolio}>
@@ -28,41 +49,15 @@ export default function Projects({ data }) {
 						</Link>
 					))}
 				</div>
-				<p className={bold}>
+				{/* <p className={bold}>
 					Like what you see? Email me at{' '}
 					<a className={underline} href="mailto:tabele86@gmail.com">
 						{contact}
 					</a>
-				</p>
+				</p> */}
 			</div>
 		</Layout>
 	);
 }
 
 //export page query
-export const query = graphql`
-	query ProjectsPage {
-		projects: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-			nodes {
-				frontmatter {
-					slug
-					title
-					stack
-					link
-					github
-					thumb {
-						childImageSharp {
-							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, PNG, WEBP])
-						}
-					}
-				}
-				id
-			}
-		}
-		contact: site {
-			siteMetadata {
-				contact
-			}
-		}
-	}
-`;
