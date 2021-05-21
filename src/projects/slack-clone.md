@@ -3,8 +3,8 @@ title: slack-clone
 stack: React, Firebase(google auth), 
 slug: slack-clone
 date: 2020-12-22 00:00:00 +0000
-thumb: ../images/thumbs/slack-example.png
-featuredImg: ../images/featured/slack-example.png
+thumb: ../images/thumbs/slack-example copy.png
+featuredImg: ../images/featured/slack-example copy.png
 link: https://slack-clone-9f54c.web.app/
 github: https://github.com/Tabele86/slack-clone
 ---

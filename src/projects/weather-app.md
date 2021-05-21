@@ -3,7 +3,7 @@ title: Weather App
 stack:  Javascript, HTML, CSS openweathermap API
 slug: weather-app
 date: 2020-12-23 00:00:00 +0000
-thumb: ../images/thumbs/wa-example.png
+thumb: ../images/thumbs/wa-example copy.png
 featuredImg: ../images/featured/wa-example.png
 link: https://condescending-bartik-981a81.netlify.app/
 github: https://github.com/Tabele86/WeatherApp
