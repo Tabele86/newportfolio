@@ -42,7 +42,7 @@ export default function Projects({ data }) {
 //export page query
 export const query = graphql`
 	query ProjectsPage {
-		projects: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+		allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
 			nodes {
 				frontmatter {
 					slug
@@ -52,14 +52,14 @@ export const query = graphql`
 					github
 					thumb {
 						childImageSharp {
-							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
+							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: PNG)
+							id
 						}
 					}
 				}
-				id
 			}
 		}
-		contact: site {
+		site {
 			siteMetadata {
 				contact
 			}
