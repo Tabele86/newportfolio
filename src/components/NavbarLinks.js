@@ -7,7 +7,7 @@ export default function NavbarLinks() {
 			<NavItem to="/">Home</NavItem>
 			<NavItem to="/about">About</NavItem>
 			<NavItem to="/education">Education</NavItem>
-			<NavItem to="/projects">Portfolio Projects</NavItem>
+			<NavItem to="/projects">Portfolio</NavItem>
 		</>
 	);
 }
