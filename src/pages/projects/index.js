@@ -53,10 +53,10 @@ export const query = graphql`
 					thumb {
 						childImageSharp {
 							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, PNG, WEBP])
-							id
 						}
 					}
 				}
+				id
 			}
 		}
 		site {
