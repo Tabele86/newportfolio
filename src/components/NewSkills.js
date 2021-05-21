@@ -1,3 +1,4 @@
+import React from 'react';
 import Tooltip from 'react-simple-tooltip';
 import { SiFlutter } from '@react-icons/all-files/si/SiFlutter';
 import { SiMicrosoftazure } from '@react-icons/all-files/si/SiMicrosoftazure';

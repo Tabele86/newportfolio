@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Tooltip from 'react-simple-tooltip';
 import { FaHtml5 } from '@react-icons/all-files/fa/FaHtml5';
 import { FaCss3Alt } from '@react-icons/all-files/fa/FaCss3Alt';
