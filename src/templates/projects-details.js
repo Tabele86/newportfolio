@@ -9,8 +9,8 @@ import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
 export default function ProjectsDetails({ data }) {
 	const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData);
 	const { html } = data.markdownRemark;
-	const { title, stack } = data.markdownRemark.frontmatter;
-	const { link, github } = data.markdownRemark.frontmatter;
+	const { title, stack, link, github } = data.markdownRemark.frontmatter;
+
 	return (
 		<Layout>
 			<div className={details}>
@@ -57,7 +57,7 @@ export const query = graphql`
 				github
 				featuredImg {
 					childImageSharp {
-						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
+						gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, AVIF])
 					}
 				}
 			}
