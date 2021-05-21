@@ -42,7 +42,7 @@ export default function Projects({ data }) {
 //export page query
 export const query = graphql`
 	query ProjectsPage {
-		allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+		projects: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
 			nodes {
 				frontmatter {
 					slug
@@ -59,7 +59,7 @@ export const query = graphql`
 				id
 			}
 		}
-		site {
+		contact: site {
 			siteMetadata {
 				contact
 			}
