@@ -1,6 +1,6 @@
 ---
 title: slack-clone
-stack: React, Firebase(google auth), 
+stack: React, Firebase(google auth) 
 slug: slack-clone
 date: 2020-12-22 00:00:00 +0000
 thumb: ../images/thumbs/slack-example.PNG
