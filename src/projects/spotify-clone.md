@@ -3,8 +3,8 @@ title: netflix-clone
 stack: React, Firebase(google auth), spotify-web API
 slug: spotify-clone
 date: 2020-12-17 00:00:00 +0000
-thumb: ../images/thumbs/spotify-example.PNG
-featuredImg: ../images/featured/spotify-example.PNG
+thumb: ../images/thumbs/spotify-example.png
+featuredImg: ../images/featured/spotify-example.png
 link: https://spotify-clone-944b3.web.app/
 github: https://github.com/Tabele86/spotify-clone
 ---

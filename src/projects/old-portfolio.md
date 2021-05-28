@@ -3,8 +3,8 @@ title: Old Portfolio
 stack:  Javascript, HTML, CSS Bootstrap
 slug: old-portfolio
 date: 2020-12-14 00:00:00 +0000
-thumb: ../images/thumbs/op-example.PNG
-featuredImg: ../images/featured/op-example.PNG
+thumb: ../images/thumbs/op-example.png
+featuredImg: ../images/featured/op-example.png
 link: https://tabele86.github.io/oldportfolio/
 github: https://github.com/Tabele86/oldportfolio
 ---
