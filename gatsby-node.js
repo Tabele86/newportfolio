@@ -13,7 +13,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
           featuredImg {
-            childImageSharp{
+            childImageSharp {
               id
             }
           }
