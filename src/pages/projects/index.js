@@ -51,17 +51,13 @@ export const query = graphql`
 					link
 					github
 					thumb {
-						...FileFragment
+						childImageSharp {
+							gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+						}
 					}
 				}
 				id
 			}
-		}
-	}
-
-	fragment FileFragment on File {
-		childImageSharp {
-			gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
 		}
 	}
 `;
