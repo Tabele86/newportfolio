@@ -13,7 +13,9 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
           featuredImg {
-            absolutePath
+            childImageSharp{
+              id
+            }
           }
         }
       }
