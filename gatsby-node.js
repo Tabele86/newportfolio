@@ -7,7 +7,7 @@ exports.createPages = async ({ graphql, actions }) => {
       nodes {
         frontmatter {
           slug
-          thumb{
+          thumb {
             childImageSharp {
               id
             }
