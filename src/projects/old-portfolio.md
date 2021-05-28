@@ -5,8 +5,8 @@ slug: old-portfolio
 date: 2020-12-14 00:00:00 +0000
 thumb: ../images/thumbs/op-example.png
 featuredImg: ../images/featured/op-example.png
-link: https://tabele86.github.io/oldportfolio/
-github: https://github.com/Tabele86/oldportfolio
+link: https://tabele86.github.io/portfolio/
+github: https://github.com/Tabele86/portfolio
 ---
 **Old portfolio I completed during my birthday weekend in December**
 
