@@ -18,9 +18,9 @@ export default function Education({ data }) {
 					<strong>1000%</strong> times more on freeCodeCamp,YouTube and Udemy.
 				</p>
 				<p>
-					Towards the end of 2019 I switched studying for my CCNA and began delving into Web Development(my
+					Towards the end of 2019 I switched from studying my CCNA and began delving into Web Development(my
 					original dream almost 10 years later). It wasn't easy re-learning the basics, while also still doing
-					my network job and helping the company start up a exercise equipment franchise.(not easy to learn
+					my network job, and helping the company start up a exercise equipment franchise.(not fun learning
 					those many skills simultaneously ) Luckily when the pandemic happened I had a chance to study full
 					time.
 				</p>
@@ -38,6 +38,7 @@ export default function Education({ data }) {
 				<SiUdemy size="2em" />
 
 				<h3>Udemy Certificates</h3>
+				<h4>More to come</h4>
 			</div>
 
 			<div className={certs}>

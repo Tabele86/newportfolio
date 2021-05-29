@@ -15,7 +15,7 @@ import { FaAws } from '@react-icons/all-files/fa/FaAws';
 
 export default function NewSkills() {
 	return (
-		<div>
+		<>
 			<Tooltip content="Vue.js">
 				<RiVuejsLine size="2em" padding="5px" />
 			</Tooltip>
@@ -52,6 +52,6 @@ export default function NewSkills() {
 			<Tooltip content="Flask">
 				<SiFlask size="2em" padding="5px" />
 			</Tooltip>
-		</div>
+		</>
 	);
 }
