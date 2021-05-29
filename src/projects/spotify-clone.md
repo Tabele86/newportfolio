@@ -1,5 +1,5 @@
 ---
-title: netflix-clone
+title: spotify-clone
 stack: React, Firebase(google auth), spotify-web API
 slug: spotify-clone
 date: 2020-12-17 00:00:00 +0000

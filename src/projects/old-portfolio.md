@@ -10,5 +10,5 @@ github: https://github.com/Tabele86/portfolio
 ---
 **Old portfolio I completed during my birthday weekend in December**
 
-### Lorem ninja ipsum dolor
+### Lessons learned:
 I did enjoy building the site and learned a lot of bootstrap knowledge.  Just was not a fan of having to update things in so many places, to also accomodate for mobile. Plus I wanted to build a new portfolio with React but ended up exploring/learning Gatsby.js for my portfolio.

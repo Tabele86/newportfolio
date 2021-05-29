@@ -10,4 +10,5 @@ github: https://github.com/Tabele86/netflix-clone
 ---
 **Mostly UI clone grabbing images from API, no real functionality.**
 
-### Lorem ninja ipsum dolor
+### Things I'd like to fix:
+I'd love to try and do the new UI with more functionality. But if I remember right the trailer portion of the API wasn't free.

@@ -8,6 +8,10 @@ export default function About() {
 		<Layout>
 			<div>
 				<h1>About Page</h1>
+
+				<div className={skills}>
+					<Skills />
+				</div>
 				<p>
 					I have at least two years working in front-end and have a firm knowledge of HTML, CSS and JavaScript
 					language. I also possess a good knowledge of computer software packages, frameworks and tools/API's
@@ -30,10 +34,6 @@ export default function About() {
 					work independently while staying on schedule and meeting tight deadlines in my previous job(untested
 					in developer deadlines yet).
 				</p>
-				<p> Below is a list of my current technical skills:</p>
-				<div className={skills}>
-					<Skills />
-				</div>
 			</div>
 		</Layout>
 	);

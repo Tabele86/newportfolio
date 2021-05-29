@@ -1,14 +1,12 @@
 import { Link, graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/Layout';
-import { top, header, btn, section, skills, future, buttons } from '../styles/home.module.css';
+import { top, header, btn, section, skills, future } from '../styles/home.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import resume from '../resume/AnthonyResume.pdf';
 import NewSkills from '../components/NewSkills';
 
 export default function Home({ data }) {
-	// console.log(data);
-	// const { title, description } = data.site.siteMetadata;
 	const image = getImage(data.file.childImageSharp.gatsbyImageData);
 	return (
 		<Layout>
@@ -17,9 +15,10 @@ export default function Home({ data }) {
 					<div className={header}>
 						<h2>Design</h2>
 						<h3>Develop & Deploy</h3>
-						<p>Software/Web/Jr. Developer based in Nashville, TN</p>
+						<p> Jr. Software/Web Developer based in Nashville, TN</p>
 					</div>
-					<div className={buttons}>
+					{/* Buttons */}
+					<div>
 						<div>
 							<Link className={btn} to="/projects">
 								My Portfolio Projects

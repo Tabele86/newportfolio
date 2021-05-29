@@ -11,9 +11,13 @@
 	margin-top: 40px;
 }
 .featured {
-	margin-bottom: 40px;
+	padding: 2em 5em;
 }
-
+@media screen and (max-width: 1096px) {
+	.featured {
+		padding: 2em 0;
+	}
+}
 .linkBlock {
 	display: flex;
 	align-items: baseline;

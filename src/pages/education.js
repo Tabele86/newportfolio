@@ -38,7 +38,7 @@ export default function Education({ data }) {
 				<SiUdemy size="2em" />
 
 				<h3>Udemy Certificates</h3>
-				<h4>More to come</h4>
+				<h4>More to come...</h4>
 			</div>
 
 			<div className={certs}>

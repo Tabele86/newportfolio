@@ -23,6 +23,9 @@ p {
 h1 {
 	text-align: center;
 }
+h5 {
+	text-align: center;
+}
 /* layout & nav */
 .layout {
 	max-width: 1200px;

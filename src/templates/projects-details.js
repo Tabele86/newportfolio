@@ -5,6 +5,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { graphql } from 'gatsby';
 import { BsLink45Deg } from '@react-icons/all-files/bs/BsLink45Deg';
 import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
+import { FaArrowLeft } from '@react-icons/all-files/fa/FaArrowLeft';
 
 export default function ProjectsDetails({ data }) {
 	const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData);
@@ -24,12 +25,12 @@ export default function ProjectsDetails({ data }) {
 						Link
 					</a>
 				</div>
-
 				<br />
 				<div className={linkBlock}>
 					<div className={logo}>
 						<AiFillGithub />
 					</div>
+
 					<a className={linkSpace} target="_blank" rel="noreferrer" href={github}>
 						GitHub
 					</a>
@@ -38,7 +39,13 @@ export default function ProjectsDetails({ data }) {
 				<div className={featured}>
 					<GatsbyImage image={featuredImage} alt="Banner" />
 				</div>
-
+				<div className={linkBlock}>
+					<a href="/projects">
+						<div className={logo}>
+							<FaArrowLeft />
+						</div>
+					</a>
+				</div>
 				{/* <Img fluid={}/> */}
 			</div>
 			<div className={htmlS} dangerouslySetInnerHTML={{ __html: html }} />

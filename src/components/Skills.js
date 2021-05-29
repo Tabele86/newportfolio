@@ -4,6 +4,8 @@ import { FaHtml5 } from '@react-icons/all-files/fa/FaHtml5';
 import { FaCss3Alt } from '@react-icons/all-files/fa/FaCss3Alt';
 import { DiJavascript1 } from '@react-icons/all-files/di/DiJavascript1';
 import { FaReact } from '@react-icons/all-files/fa/FaReact';
+import { FaSass } from '@react-icons/all-files/fa/FaSass';
+import { FaNodeJs } from '@react-icons/all-files/fa/FaNodeJs';
 import { SiGatsby } from '@react-icons/all-files/si/SiGatsby';
 import { AiOutlineConsoleSql } from '@react-icons/all-files/ai/AiOutlineConsoleSql';
 import { SiTypescript } from '@react-icons/all-files/si/SiTypescript';
@@ -17,6 +19,8 @@ export default function Skills() {
             <Tooltip content="CSS3">
 			<FaCss3Alt size="2em" padding="5px"/></Tooltip>
 			<Tooltip content="JavaScript"><DiJavascript1 size="2em" padding="5px"/></Tooltip>
+			<Tooltip content="Node.js"><FaNodeJs size="2em" padding="5px"/></Tooltip>
+			<Tooltip content="Sass"><FaSass size="2em" padding="5px"/></Tooltip>
 			<Tooltip content="SQL"><AiOutlineConsoleSql size="2em" padding="5px"/></Tooltip>
 			<Tooltip content="React"><FaReact size="2em" padding="5px"/></Tooltip>
 			<Tooltip content="Gatsby"><SiGatsby size="2em" padding="5px"/></Tooltip>
