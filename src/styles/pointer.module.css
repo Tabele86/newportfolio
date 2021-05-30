@@ -1,0 +1,28 @@
+.educationPointer {
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 865px) {
+	.educationPointer {
+		visibility: visible;
+	}
+}
+
+.aboutPointer {
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 545px) {
+	.aboutPointer {
+		visibility: visible;
+	}
+}
+
+.portfolioPointer {
+	display: flex;
+	justify-content: center;
+}

@@ -2,8 +2,11 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { StaticImage } from 'gatsby-plugin-image';
 import { zoom, freecode, icon, udemy, certs, title } from '../styles/education.module.css';
+import { educationPointer } from '../styles/pointer.module.css';
+import Pointer from '../components/Pointer';
 import { FaFreeCodeCamp } from '@react-icons/all-files/fa/FaFreeCodeCamp';
 import { SiUdemy } from '@react-icons/all-files/si/SiUdemy';
+
 
 export default function Education({ data }) {
 	const freeCodeLink = 'https://www.freecodecamp.org/tabele';
@@ -63,6 +66,9 @@ export default function Education({ data }) {
 					placeholder="blurred"
 					alt="Colt Steele Cert"
 				/>
+			</div>
+			<div className={educationPointer}>
+				<Pointer />
 			</div>
 		</Layout>
 	);

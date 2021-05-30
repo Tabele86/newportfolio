@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Skills from '../components/Skills';
 import { skills } from '../styles/about.module.css';
+import { aboutPointer } from '../styles/pointer.module.css';
+import Pointer from '../components/Pointer';
 
 export default function About() {
 	return (
@@ -34,6 +36,9 @@ export default function About() {
 					work independently while staying on schedule and meeting tight deadlines in my previous job(untested
 					in developer deadlines yet).
 				</p>
+			</div>
+			<div className={aboutPointer}>
+				<Pointer />
 			</div>
 		</Layout>
 	);

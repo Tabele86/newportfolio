@@ -3,6 +3,8 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { portfolio, projectstyle } from '../../styles/projects.module.css';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import Pointer from '../../components/Pointer';
+import { portfolioPointer } from '../../styles/pointer.module.css';
 
 export default function Projects({ data }) {
 	// console.log(data);
@@ -32,6 +34,9 @@ export default function Projects({ data }) {
 						{contact}
 					</a>
 				</p> */}
+			</div>
+			<div className={portfolioPointer}>
+				<Pointer />
 			</div>
 		</Layout>
 	);
