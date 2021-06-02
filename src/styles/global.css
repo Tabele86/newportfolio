@@ -2,7 +2,8 @@
 
 * {
 	margin: 0;
-
+	padding-left: 1px;
+	padding-right: 1px;
 	text-decoration: none;
 	font-family: "Montserrat";
 	color: white;
@@ -32,23 +33,6 @@ h5 {
 	margin: 0 auto;
 }
 
-/* nav {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin: 40px auto;
-}
-nav a {
-	display: inline-block;
-	margin-left: 20px;
-	font-weight: 400;
-	padding-bottom: 8px;
-	border-bottom: 3px solid transparent;
-	color: white;
-}
-nav a:hover {
-	border-color: rgb(180, 232, 72);
-	color: rgb(180, 232, 72);
-} */
 footer div {
 	display: flex;
 	justify-content: center;

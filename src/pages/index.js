@@ -15,7 +15,7 @@ export default function Home({ data }) {
 					<div className={header}>
 						<h2>Design</h2>
 						<h3>Develop & Deploy</h3>
-						<p> Jr. Software/Web Developer based in Nashville, TN</p>
+						<h4> Jr. Software/Web Developer</h4>
 					</div>
 					{/* Buttons */}
 					<div>

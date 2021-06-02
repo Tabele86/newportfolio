@@ -1,16 +1,14 @@
 import React from 'react';
-
-import Tooltip from 'react-simple-tooltip';
 import { FaArrowUp } from '@react-icons/all-files/fa/FaArrowUp';
-
+import {pointerHover} from '../styles/pointer.module.css'
 export default function Pointer() {
 	return (
 		<>
-			<Tooltip content="Back to Top">
+			
 				<a href="#top">
-					<FaArrowUp />
+					<FaArrowUp className={pointerHover}/>
 				</a>
-			</Tooltip>
+		
 		</>
 	);
 }
