@@ -5,7 +5,7 @@ slug: nature-blog
 date: 2021-02-14 00:00:00 +0000
 thumb: ../images/thumbs/nb-example.png
 featuredImg: ../images/featured/nb-example.png
-link: https://stoic-lichterman-6b986f.netlify.app/
+link: https://natureblog.netlify.app/
 github: https://github.com/Tabele86/nature-blog
 ---
 

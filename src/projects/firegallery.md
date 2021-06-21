@@ -5,7 +5,7 @@ slug: firegallery
 date: 2021-05-20 00:00:00 +0000
 thumb: ../images/thumbs/fg-example.png
 featuredImg: ../images/featured/fg-example.png
-link: https://agitated-jackson-139d8b.netlify.app/
+link: https://firegalleryreact.netlify.app/
 github: https://github.com/Tabele86/firegallery
 ---
 

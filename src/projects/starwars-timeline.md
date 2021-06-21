@@ -5,7 +5,7 @@ slug: starwars-timeline
 date: 2021-01-20 00:00:00 +0000
 thumb: ../images/thumbs/swt-example.png
 featuredImg: ../images/featured/swt-example.png
-link: https://determined-kirch-e29146.netlify.app/
+link: https://starwarstimeline.netlify.app/
 github: https://github.com/Tabele86/starwars-timeline
 ---
 **Star Wars Canon timeline spanning across all movies and tv, made with react and react-chrono.**

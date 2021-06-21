@@ -5,7 +5,7 @@ slug: weather-app
 date: 2020-12-23 00:00:00 +0000
 thumb: ../images/thumbs/wa-example.png
 featuredImg: ../images/featured/wa-example.png
-link: https://condescending-bartik-981a81.netlify.app/
+link: https://oldweatherapp.netlify.app/
 github: https://github.com/Tabele86/WeatherApp
 ---
 **Simple weather app using openweathermap API. Still need to update files to hide API key with dot.env or netlify file.**
