@@ -7,7 +7,6 @@ import Pointer from '../components/Pointer';
 import { FaFreeCodeCamp } from '@react-icons/all-files/fa/FaFreeCodeCamp';
 import { SiUdemy } from '@react-icons/all-files/si/SiUdemy';
 
-
 export default function Education({ data }) {
 	const freeCodeLink = 'https://www.freecodecamp.org/tabele';
 	return (
@@ -25,7 +24,7 @@ export default function Education({ data }) {
 					original dream almost 10 years later). It wasn't easy re-learning the basics, while also still doing
 					my network job, and helping the company start up a exercise equipment franchise.(not fun learning
 					those many skills simultaneously ) Luckily when the pandemic happened I had a chance to study full
-					time.
+					time until January of 2021.
 				</p>
 				<p>Been a self taught developer since April 2020. </p>
 			</div>
@@ -41,7 +40,7 @@ export default function Education({ data }) {
 				<SiUdemy size="2em" />
 
 				<h3>Udemy Certificates</h3>
-				<h4>More to come...</h4>
+				<h4>WebDev</h4>
 			</div>
 
 			<div className={certs}>
@@ -65,6 +64,21 @@ export default function Education({ data }) {
 					layout="constrained"
 					placeholder="blurred"
 					alt="Colt Steele Cert"
+				/>
+			</div>
+			<div className={udemy}>
+				<SiUdemy size="2em" />
+
+				<h3>Udemy Certificates</h3>
+				<h4>Network/Cloud</h4>
+			</div>
+			<div className={certs}>
+				<StaticImage
+					src="../images/certs/cert-MM-Network+.jpg"
+					className={zoom}
+					layout="constrained"
+					placeholder="blurred"
+					alt="Mike Meyers Cert"
 				/>
 			</div>
 			<div className={educationPointer}>
